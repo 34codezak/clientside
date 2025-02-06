@@ -7,7 +7,7 @@ body {
     background-image: url(food1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(80px);
+    backdrop-filter: blur(50px);
     /*background: rgba(214, 212, 212, 0.945);*/
     color: #045;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -108,11 +108,12 @@ nav a:hover::after {
 }
 
 form {
-     padding: 15px;
+    padding: 15px;
     display: grid;
+    grid-template-columns: repeat(3, 2fr);
     gap: 10px;
     margin: auto;
-    max-width: 600px;
+    /*max-width: 600px;*/
 }
 
 input {
